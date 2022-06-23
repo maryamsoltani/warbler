@@ -1,12 +1,4 @@
 ## Warbler-app
-
-### Visit on Heroku
-1. To access, please visit https://warbler-75.herokuapp.com/
-2. create account via sign up button
-3. initial "home" will show your profile on the left, to find other users click all users link in nav bar
-4. follow any user to see thier warbles appear on your home feed!
-
-
 ### Run locally
 To get this application running, make sure you do the following in the Terminal:
 
