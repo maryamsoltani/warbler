@@ -10,3 +10,7 @@ For Python 3.8 users, we recommend deleting pyscopg2-binary from the requirement
 4. `createdb warbler`
 5. `python seed.py`
 6. `flask run`
+
+![Alt text](https://github.com/maryamsoltani/warbler/blob/main/warbler.gif)
+<br>
+<img src="https://github.com/maryamsoltani/warbler/blob/main/warbler.gif" width= "40" height = "40" />
