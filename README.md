@@ -23,3 +23,5 @@ Running Tests
 2. `source venv/bin/activate`
 3. `pip install -r requirements.txt`
 4. `createdb warbler`
+5. `python -m unittest test_message_model.py`
+
