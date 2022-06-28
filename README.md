@@ -14,3 +14,12 @@ For Python 3.8 users, we recommend deleting pyscopg2-binary from the requirement
 ![Alt text](https://github.com/maryamsoltani/warbler/blob/main/warbler.gif)
 <br>
 <img src="https://github.com/maryamsoltani/warbler/blob/main/warbler.gif" width= "40" height = "40" />
+
+
+
+Running Tests
+-------------
+1. `python3 -m venv venv`
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
+4. `createdb warbler`
