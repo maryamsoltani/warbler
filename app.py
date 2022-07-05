@@ -328,6 +328,11 @@ def messages_destroy(message_id):
     if not g.user:
         flash("Access unauthorized.", "danger")
         return redirect("/")
+    
+    msg = Message.query.get_or_404(message_id)
+    if msg.user.id !=g.user.id:
+        flash("Access unauthorizes.", "danger")
+        return redirect("/")
 
     msg = Message.query.get(message_id)
     db.session.delete(msg)
