@@ -8,6 +8,7 @@
 from app import app, CURR_USER_KEY
 import os
 from unittest import TestCase
+from sqlalchemy import exc
 
 from models import db, connect_db, Message, User
 
